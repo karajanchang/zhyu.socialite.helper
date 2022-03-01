@@ -1,0 +1,42 @@
+{
+  "name": "karajanchang/zhyu.socialite.helper",
+  "description": "Laravel Socialite Login Helper to login with redirect and refresh apple token",
+  "type": "library",
+  "require": {
+    "lcobucci/jwt": "^4.1",
+    "firebase/php-jwt": "^5.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "david",
+      "email": "karajanchang@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Zhyu\\Socialite\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Zhyu\\Socialite\\ZhyuSocialiteServiceProvider"
+      ]
+    }
+  },
+  "keywords": [
+    "laravel",
+    "socialite",
+    "apple",
+    "sign in with apple",
+    "laravel socialite",
+    "socialite apple",
+    "client key generator",
+    "client key refresh",
+    "apple client key",
+    "apple sign in",
+    "laravel apple"
+  ]
+}
